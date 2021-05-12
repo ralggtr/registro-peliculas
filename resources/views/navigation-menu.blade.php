@@ -27,6 +27,34 @@
                         {{ __('Agregar Películas') }}
                     </x-jet-nav-link>
                 </div>
+
+                <!-- Ejercicio 1 -->
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('exercise1') }}" :active="request()->routeIs('exercise1')">
+                        {{ __('Ejercicio 1') }}
+                    </x-jet-nav-link>
+                </div>
+
+                 <!-- Ejercicio 2 -->
+                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('exercise2') }}" :active="request()->routeIs('exercise2')">
+                        {{ __('Ejercicio 2') }}
+                    </x-jet-nav-link>
+                </div>
+
+                 <!-- Ejercicio 3 -->
+                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('exercise3') }}" :active="request()->routeIs('exercise3')">
+                        {{ __('Ejercicio 3') }}
+                    </x-jet-nav-link>
+                </div>
+                
+                <!-- Ejercicio 4 -->
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('algoritmo4') }}" :active="request()->routeIs('algoritmo4')">
+                        {{ __('Ejercicio 4') }}
+                    </x-jet-nav-link>
+                </div>
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">
