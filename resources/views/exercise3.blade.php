@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Ejercicio #3') }}
+            {{ __('Ejercicio #3: VERIFICAR SI UNA CADENA ES UN NUMERO VALIDO') }}
         </h2>
     </x-slot>
 

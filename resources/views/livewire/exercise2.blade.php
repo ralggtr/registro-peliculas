@@ -18,7 +18,11 @@
                                 
                                 <div class="text-gray-700">
                                     <h1 class="text-gray-800 font-bold text-2xl center">
-                                        {{ $result }}
+                                    @if(!empty($finalArray)) 
+                                      @foreach ($finalArray as $r)
+                                          {{ $r.'  ' }}
+                                      @endforeach
+                                    @endif
                                     </h1>
                                 </div>
                             </div>

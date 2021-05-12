@@ -3,7 +3,7 @@
         @csrf
 
 <div>
-  <label for="numbers" class="block text-sm font-medium text-gray-700">Ingrese un array de números separado por comas:</label>
+  <label for="numbers" class="block text-sm font-medium text-gray-700">Ingrese un array de elementos separado por comas:</label>
   <div class="mt-1 relative rounded-md shadow-sm py-5">
     <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
       <span class="text-gray-500 sm:text-sm">
@@ -15,7 +15,7 @@
 </div>
 
 <div>
-  <label for="findnumber" class="block text-sm font-medium text-gray-700">Ingrese el número a buscar:</label>
+  <label for="findnumber" class="block text-sm font-medium text-gray-700">Ingrese el elemento a buscar:</label>
   <div class="mt-1 relative rounded-md shadow-sm py-5">
     <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
       <span class="text-gray-500 sm:text-sm">
